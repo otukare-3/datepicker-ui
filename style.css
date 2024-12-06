@@ -28,10 +28,7 @@
 }
 
 .week {
-  display: flex;
-  justify-content: space-around;
-}
-.week__day {
-  text-align: center;
-  width: 2rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
 }/*# sourceMappingURL=style.css.map */
