@@ -1,0 +1,20 @@
+.date-picker {
+  border: 1px solid black;
+  height: 350px;
+  width: 250px;
+}
+
+.month-selector {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.month-selector__month-and-year {
+  margin: 0px 20px;
+}
+
+.day-of-week {
+  display: flex;
+  justify-content: space-between;
+}
