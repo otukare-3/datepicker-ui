@@ -14,7 +14,20 @@
   margin: 0px 20px;
 }
 
-.day-of-week {
+.day-of-weeks {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
+  &__item {
+    text-align: center;
+  }
+}
+
+.week {
+  display: flex;
+  justify-content: space-around;
+
+  &__day {
+    text-align: center;
+  }
 }
