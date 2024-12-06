@@ -1,11 +1,9 @@
 .date-picker {
   border: 1px solid black;
-  height: 350px;
   width: 250px;
 }
 
 .month-selector {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
 }
@@ -20,6 +18,14 @@
 
   &__item {
     text-align: center;
+    width: 2rem;
+
+    &_sunday {
+      color: red;
+    }
+    &_saturday {
+      color: lightblue;
+    }
   }
 }
 
@@ -29,5 +35,6 @@
 
   &__day {
     text-align: center;
+    width: 2rem;
   }
 }

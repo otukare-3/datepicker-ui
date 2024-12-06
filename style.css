@@ -1,11 +1,9 @@
 .date-picker {
   border: 1px solid black;
-  height: 350px;
   width: 250px;
 }
 
 .month-selector {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
 }
@@ -20,6 +18,13 @@
 }
 .day-of-weeks__item {
   text-align: center;
+  width: 2rem;
+}
+.day-of-weeks__item_sunday {
+  color: red;
+}
+.day-of-weeks__item_saturday {
+  color: lightblue;
 }
 
 .week {
@@ -28,4 +33,5 @@
 }
 .week__day {
   text-align: center;
+  width: 2rem;
 }/*# sourceMappingURL=style.css.map */
